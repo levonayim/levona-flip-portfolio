@@ -7,12 +7,6 @@
 	src:url(font/GOTHIC.TTF);
 }
 
-@font-face{
-	font-family:joehand2;
-	src:url(font/JoeHand2.ttf);
-}
-
-
 /**** COLOURS
 Purple: rgb(81,49,108) #51316c
 Turquoise: rgb(0,160,154) #00a09a
@@ -35,6 +29,26 @@ h3{
 p{
 	font-family:centurygothic;
 	letter-spacing:2px;
+}
+a{
+	text-decoration:none;
+}
+#footer-info{
+	width: 100vw;
+	font-family:nevis;
+	text-transform:uppercase;
+	font-size:0.75em;
+	background-color:#ffffff;
+	color:#00a09a;
+	text-align: center;
+	bottom: 0;
+	position: relative;
+	padding-bottom: 1em;
+	margin-top: 100vh;
+}
+p.contactMsg{
+	font-weight: 600;
+	color:#51316c;
 }
 
 .wrapper{
@@ -111,7 +125,7 @@ nav, nav ul{
 	top: 0.25em;
 	right: 0.25em;
 	margin:0;
-	z-index: 2;
+	z-index: -1;
 }
 
 .navMenu{
