@@ -246,6 +246,14 @@ nav, nav ul{
 	}
 
 }
+
+/**TABLET**/
+@media(max-width:50em){
+	.dd-shown{
+		position:fixed;
+		z-index: 200;
+	}
+}
 @media screen and (orientation: landscape) {
 	img.ri { 
 		max-height: 100%; 
