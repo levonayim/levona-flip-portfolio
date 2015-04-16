@@ -33,6 +33,13 @@ p{
 a{
 	text-decoration:none;
 }
+a:link, a:visited{
+	color:#51316c;
+}
+a:hover; a:active;{
+	color:#00a09a;
+}
+
 #footer-info{
 	width: 100vw;
 	font-family:nevis;
