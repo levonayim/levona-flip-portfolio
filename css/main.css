@@ -121,7 +121,7 @@ img.ri:empty
 
 nav, nav ul{
 	list-style-type: none;
-	position: absolute;
+	/* position: absolute; */
 	top: 0.25em;
 	right: 0.25em;
 	margin:0;
