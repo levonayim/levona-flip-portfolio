@@ -176,6 +176,19 @@ a.project{
 	}
 }
 
+/** Tablet **/
+@media(max-width:50em){
+	
+	li.tiles{
+		list-style-type: none;
+		height: 40vh;
+		width:50%;
+		position:relative;
+		display:inline-block;
+		float:left;
+		margin-bottom:0.75em;
+	}
+}
 /** Phone **/
 @media(max-width:35em){
 	li.tiles.first{
