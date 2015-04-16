@@ -1,0 +1,52 @@
+
+/* 
+	This tutorial draws from "Don't Overthink Grids" available at
+	http://css-tricks.com/dont-overthink-it-grids/
+*/
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+[class^='col-'] {
+	float: left;
+	padding: 0; 
+	text-align: center; /* center the content in this block */
+}
+
+.col-2of3{
+	width: 66.66%;
+}
+
+@media (max-width: 50em) {
+
+	.col-2of3{
+		width: 100%;
+	}
+
+}
+
+.col-1of3{
+	width: 33.33%;
+}
+
+@media (max-width: 30em) {
+
+	.col-1of3 {
+		width: 100%;
+	}
+
+}
+
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+

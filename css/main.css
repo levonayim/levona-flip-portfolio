@@ -1,0 +1,348 @@
+@font-face {
+    font-family: nevis;
+    src: url(font/nevis.ttf);
+}
+@font-face{
+	font-family:centurygothic;
+	src:url(font/GOTHIC.TTF);
+}
+
+@font-face{
+	font-family:joehand2;
+	src:url(font/JoeHand2.ttf);
+}
+
+
+/**** COLOURS
+Purple: rgb(81,49,108) #51316c
+Turquoise: rgb(0,160,154) #00a09a
+Gray:(157,156,156) #9d9c9c
+Background light white color: rgb(250,249,250) #faf9fa
+font-family:nevis;
+text-transform:uppercase;
+color:#51316c;
+******/
+
+body{
+	background-color:#faf8f9;
+	font-size:15px;
+	margin:0;
+	padding:0
+}
+h3{
+	font-size:15px;
+}
+p{
+	font-family:centurygothic;
+	letter-spacing:2px;
+}
+
+.wrapper{
+	position:fixed;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	border: 1em solid white;
+}
+.hello{
+	font-family:nevis; 
+	margin-top:0.5em;
+	text-transform:uppercase;
+	color:white;
+	z-index:1;
+	letter-spacing:2px;
+	position:absolute;
+	
+	top: 48%;
+	left: 52%;
+	text-align:center;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hello h1{
+	letter-spacing:0.5em;
+	font-size:2.5em;
+	/* margin-bottom:0; */
+}
+
+.hello p{
+	font-size:1.25em;
+	letter-spacing:0.3em;
+	line-height:1.5em;
+	/* margin-top:5em; */
+	margin-left:2em;
+	margin-right:2em;
+	width: 85%;
+}
+
+img.ri{
+	z-index:-1;
+	position: absolute;
+	max-width: 95%;
+	max-height:100%;
+	top: 10%;
+	left: 10%;
+	border-radius: 3px;
+}
+
+img.ri:empty
+{	
+	z-index:-1;
+	top: 50%;
+	left: 50%;
+/* 	width:90vw;
+	height:100vh; */
+	
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+nav, nav ul{
+	list-style-type: none;
+	position: absolute;
+	top: 0.25em;
+	right: 0.25em;
+	margin:0;
+	z-index: 2;
+}
+
+.navMenu{
+	font-family:nevis;
+	text-transform:uppercase;
+	color:#51316c;
+	border: 3px solid #51316c;
+	padding:0.5em;
+	position:fixed; /**absolute**/
+	top:1.5em;
+	right:1.5em;
+	text-decoration:none;
+	z-index: 210;
+	font-size:1em;
+}
+
+.mylogo{
+	width:8%;
+	height:auto;
+}
+
+.firstlink{
+	padding-top:0;
+	margin-top:0;
+}
+.projects{
+	margin-top:0;
+}
+/** Project AboutMe Resume **/
+
+.dd-hidden{
+	visibility: hidden;
+	opacity: 0;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:0;
+	padding-top: 10vh;
+	list-style: none;
+	text-align: center;
+	background-color: rgba(250,249,250,0.8);
+	line-height:7em;
+	z-index:2;
+	-webkit-transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+	transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+}
+
+.dd-shown {
+	visibility: visible;
+	position: absolute;
+	opacity: 1;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:0;
+	padding-top: 10vh;
+	list-style: none;
+	z-index: 200;
+	text-align: center;
+	background-color: rgba(250,249,250,0.8);
+	line-height:7em;
+	
+	-webkit-transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+	transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+	
+}
+
+.dd-shown >li>a, .dd-hidden >li>a{
+	font-family:nevis;
+	text-transform:uppercase;
+	font-size:4rem;
+	
+	text-decoration:none;
+}
+
+.dd-shown >li>a, .dd-hidden >li>a{
+	font-family:nevis;
+	text-transform:uppercase;
+	font-size:4rem;
+	color:rgb(81,49,108);
+	text-decoration:none;
+}
+
+.dd-shown >li>a:active, .dd-shown >li>a:hover{
+	color:rgb(0,160,154);
+}
+
+.dd-shown >li>a:visited{
+	color:rgb(81,49,108);
+}
+
+
+
+
+/**TABLET**/
+@media(max-width:80em){
+	.hello{
+		top: 48%;
+		left: 53%;
+		max-width:65%;
+	}
+	
+	.hello h1 {
+		font-size: 2.5em;
+		margin-bottom: 0;
+		margin-top: 8%;
+		margin-left:-1em;
+	}
+	
+	.hello p{
+		margin-top:1em;
+		font-size: 1.15em;
+		letter-spacing: 0.3em;
+		line-height: 1.5em;
+		margin-left:-10%;
+		width:100%;
+	}
+	
+  img.ri { 
+		max-width: 135%;
+		position: fixed;
+		top: 50vh;
+		height: 125%;
+		margin: 5px;
+	}
+	
+	.navMenu{
+		font-size:1em;
+		z-index: 210;
+	}
+
+}
+@media screen and (orientation: landscape) {
+	img.ri { 
+		max-height: 100%; 
+		max-width: 100%;
+	}
+  
+  	.navMenu{
+		font-size:1em;
+	}
+	
+	.dd-shown{
+		position:fixed;
+		z-index: 200;
+	}
+}
+
+/**MOBILE**/
+@media(max-width:35em){
+	body{
+		background-color: #faf8f9;
+		font-size: 15px;
+	}
+	.navMenu{
+		top:1em;
+		right:1em;
+	}
+
+  img.ri { 
+		max-width: 135%;
+		position: fixed;
+		z-index: 1;
+		top: 50vh;
+		height: 125%;
+		margin: 5px;
+	}
+	
+	img.ri:empty{
+		top:48%;
+		left:45%;
+	}
+	
+	.hello{
+		text-transform: uppercase;
+		color: white;
+		z-index: 2;
+		position: fixed;
+		left: 55%;
+		text-align: left;
+
+	}
+
+	.hello h1{
+		font-size:2em;
+		margin-bottom:0px;
+		margin-left:0.5em;
+	}
+
+	.hello p{
+		margin-top: 0.5em;
+		font-size: 1em;
+		line-height: 1.5em;
+		width: 90%;
+		margin-left: 0;
+		padding-left:1.25em;
+	}
+	
+	.dd-toggle, .navMenu{
+		z-index:211;
+	}
+	
+	.dd-shown, .dd-hidden{
+		padding-top:4.5em;
+		padding-left:0;
+		line-height:6em;
+		z-index:3;
+	}
+
+	
+	.dd-shown{
+		position: fixed;
+		height:100vh;
+		width:100%;
+		z-index:210;
+	}
+	
+	.dd-shown >li>a, .dd-hidden >li>a{
+		font-size:2em;
+	}
+	
+	
+	.mylogo {
+	  width: 25%;
+	  height: auto;
+	}
+	
+	.firstlink {
+		padding-bottom: 0;
+		margin-bottom: -1em;
+	}
+}

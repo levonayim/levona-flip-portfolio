@@ -1,0 +1,5 @@
+Purple: rgb (81,49,108) #51316c
+Turquoise: rgb(0,160,154) #00a09a
+Gray:(157,156,156) #9d9c9c
+
+Background light white color: rgb(250,249,250) #faf9fa

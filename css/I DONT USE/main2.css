@@ -1,0 +1,230 @@
+@font-face {
+    font-family: nevis;
+    src: url(font/nevis.ttf);
+}
+@font-face{
+	font-family:centurygothic;
+	src:url(font/GOTHIC.TTF);
+}
+
+
+/**** COLOURS
+Purple: rgb(81,49,108) #51316c
+Turquoise: rgb(0,160,154) #00a09a
+Gray:(157,156,156) #9d9c9c
+
+Background light white color: rgb(250,249,250) #faf9fa
+******/
+
+body{
+	background-color:#faf8f9;
+}
+
+.mylogo{
+	width:8%;
+	height:auto;
+}
+
+.firstlink{
+	padding-top:0;
+	margin-top:0;
+}
+.projects{
+	margin-top:0;
+}
+
+.hello{
+	font-family:nevis;
+	text-transform:uppercase;
+	color:white;
+	z-index:1;
+	position:absolute;
+	
+	top: 46%;
+	left: 50%;
+	text-align:center;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hello h1{
+	font-size:2.5em;
+	margin-bottom:0;
+}
+
+.hello p{
+	font-size:1.25em;
+	margin-top:0.5em;
+}
+
+img.ri{
+	position: absolute;
+	max-width: 80%;
+	top: 10%;
+	left: 10%;
+	border-radius: 3px;
+}
+
+img.ri:empty
+{
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+nav, nav ul{
+	list-style-type: none;
+	position: absolute;
+	top: 0.25em;
+	right: 0.25em;
+	margin:0;
+	z-index: 2;
+}
+.navMenu{
+	font-family:nevis;
+	text-transform:uppercase;
+	color:#51316c;
+	border: 3px solid #51316c;
+	padding:0.5em;
+	position:absolute;
+	top:1em;
+	right:1em;
+	text-decoration:none;
+}
+/** Project AboutMe Resume **/
+.dd-button {
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+	z-index:3;
+}
+
+.hide {
+	visibility: hidden;
+	opacity: 0;
+}
+
+
+.dd>.dd-list {
+	position: absolute;
+	
+	z-index:2;
+	background-color: rgba(250,249,250,0.8);
+	text-align: center;
+	height: 100vh;
+	-webkit-transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+	transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+}
+
+.dd:hover>.dd-list {
+	visibility: visible;
+	opacity: 1;
+	transition-delay: 0s;
+}
+
+.dd {
+	max-width: 20em;
+}
+
+.dd-button:hover {
+	background-color: #CCC;
+}
+
+.dd-list {
+	top:0;
+	left:0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.dd-list ul{
+	top:0;
+	margin-top:0;
+}
+.dd-list li a {
+	display: block;
+	width: 100%;
+	margin: 0.1em 0;
+	padding: 0.5em 0.7em;
+	list-style-type: none;
+	color:rgb(81,49,108);
+	font-family:nevis;
+	text-transform:uppercase;
+	font-size:4em;
+	text-decoration:none;
+}
+.dd-list li a:hover{
+	color:rgb(0,160,154);
+}
+.dd-list li a:active{
+	color:rgb(0,160,154);
+}
+
+/**MOBILE**/
+@media screen and (orientation: portrait) {
+  img.ri { 
+			max-width:100%;
+			height:90%;
+		}
+	.hello{
+			font-family:nevis;
+			text-transform:uppercase;
+			color:white;
+			z-index:1;
+			position:absolute;
+
+			top: 50%;
+			left: 55%;
+			text-align:left;
+			-webkit-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			-o-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+	}
+
+	.hello h1{
+			font-size:2em;
+			margin-bottom:0px;
+	}
+
+	.hello p{
+			margin-top:5px;
+			font-size:1em;
+			line-height:1.2em;
+	}
+	
+	.dd-list li a {
+		color:rgb(81,49,108);
+		font-size:2em;
+	}
+	
+	.dd-button {
+		z-index:3;
+	}
+	
+	.firstlink{
+		margin-top:50%;
+	}
+	.dd>.dd-list {
+		top:0;
+		left:0;
+	}
+	
+	.mylogo{
+		width:15%;
+		height:auto;
+	}
+
+}
+
+@media screen and (orientation: landscape) {
+  img.ri { max-height: 120%; }
+}

@@ -1,0 +1,137 @@
+.col-1of3{
+	height:100vh;
+}
+.col-2of3{
+	position: fixed;
+	background-color: white;
+	float: right;
+	width: 66.6vw;
+	right: 0;
+}
+img.projectLogo {
+	padding-top: 0%;
+	width: 70%;
+}
+img.TechbytesProject{
+	width: 66.6vw;
+/* 	margin-top: 10%; */
+	position: fixed;
+	left: 0;
+}
+
+.roleDetails {
+  text-align: center;
+  font-size: 0.85em;
+  padding: 0 1em;
+}
+
+
+.Subheadings.finalist>a.prototypeLink{
+	text-transform: none;
+	font-size:1em;
+	line-height:0.75em;
+}
+
+
+a.nextproject1{
+	font-size:0.75em;
+	font-family:nevis;
+	text-transform:uppercase;
+	position:absolute;
+	margin-top: -5%;
+	color:rgb(81,49,108);
+	float:left;
+	letter-spacing:1px;
+	padding-left:2em;
+	text-decoration:none;
+	z-index:1;
+}
+a.nextproject2{
+	font-size:0.75em;
+	font-family:nevis;
+	text-transform:uppercase;
+	position:absolute;
+	margin-top: -5%;
+	left:12%;
+	color:rgb(81,49,108);
+	float:right;
+	letter-spacing:1px;
+	padding-right:2em;
+	text-decoration:none;
+	z-index:1;
+}
+.fa-arrow-right{
+	position:absolute;
+	bottom:5%;
+	right:5%;
+	color:rgb(81,49,108);
+	float:right;
+	letter-spacing:1px;
+	z-index:1;
+}
+.fa-arrow-left{
+	position:absolute;
+	bottom:5%;
+	left:5%;
+	color:rgb(81,49,108);
+	float:left;
+	letter-spacing:1px;
+	z-index:1;
+}
+
+/**TABLET**/
+@media(max-width:80em){
+	a.nextproject1 {
+		left: 5%;
+	}
+	a.nextproject2 {
+		left: 20%;
+	}
+}
+
+/**PHONE**/
+@media(max-width:35em){
+	
+	.col-1of3{
+		display:block;
+		height: initial;
+	}
+	.col-2of3{
+		display:block;
+		position:relative;
+		width:100%;
+	}
+	
+	img.projectLogo {
+	  padding-top: 10%;
+	}
+	.textDescriptionMain {
+		padding-top: 15%;
+	}	
+	a.nextproject1 {
+		left: 5%;
+	}
+	a.nextproject2 {
+		left: 40%;
+	}
+	.TechbytesProject img {
+	  position: relative;
+	  width: 100%;
+	  height: auto;
+	  top:0;
+	}
+	img.TechbytesProject{
+		position: absolute;
+		width:100vw;
+	}
+	
+	img.scentualsFlyers{
+		position:absolute;
+		width:100vw;
+		left:0;
+		top:0;
+	}
+	.bb-bookblock {
+		width: 66.6vw;
+		height: 100%;
+}

@@ -1,0 +1,234 @@
+/** General **/
+.grid{
+	position:absolute;
+	top:0;
+	height:100vh;
+}
+.col-2of3{
+	background-color: white;
+	float:right;
+}
+.col-1of3{
+	background-color: #faf8f9;
+	float:left;
+}
+body{
+	background-color:white;
+}
+body,p{
+	letter-spacing:0;
+}
+
+/** Content **/
+.textDescriptionMain{
+	padding-top: 25%;
+	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: left;
+	background-color:#faf8f9;
+}
+.myRoleDescription{
+	text-align:center;
+}
+
+li.tools,ul,p.textRole,.text{
+	font-family: open sans,sans-serif;
+	font-size:1em;
+	line-height:1.5em;
+	padding: 0 0.25em;
+	color:#7F7E7E;
+	display:inline;
+}
+.text{
+	font-size:0.9em;
+	line-height:1.5em;
+}
+.text2{
+	font-family: open sans,sans-serif;
+	font-size:0.9em;
+	line-height:1.5em;
+	padding: 0 0.25em;
+	color:#7F7E7E;
+}
+
+/**Section Left**/
+img.projectLogo{
+	padding-top:0;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: table-cell;
+}
+.myRoleDescriptions{
+	text-align:center;
+	padding:0;
+	margin-top:1.5em;
+	margin-bottom:2em;
+}
+h3.Subheadings{
+	/* font-family: nevis;  */
+	font-family: open sans,sans-serif;
+	font-weight:600;
+	font-size:1em;
+	text-transform: uppercase;
+	color:rgb(81,49,108);
+	display:inline; 
+}
+.role,.roleDetails{
+	margin-bottom:1em;
+}
+.role{
+	padding:0 1em;
+}
+.role2{
+	padding:0 0.75em;
+}
+.roleDetails2{
+	text-align:center;
+	font-size:0.85em;
+	padding:0 1em;
+	display:inline;
+}
+.roleDetails{
+	text-align:center;
+	font-size:0.85em;
+	padding:0 1em;
+}
+/** Prototype Link **/
+a.prototypeLink, a.prototypeLink:visited{
+	font-family: open sans,sans-serif;
+	font-weight:600;
+	font-size:1em;
+	text-transform: uppercase;
+	color:rgb(0,160,154);
+	text-decoration:none;
+}
+a.prototypeLink:hover{
+	color:rgb(81,49,108);
+}
+a.nextproject1:hover, a.nextproject2:hover,.fa:hover{
+	color:rgb(0,160,154);
+}
+
+/** Project Images on Right **/
+.TechbytesProject img{
+	position:fixed;
+	width:66.6%;
+	height:auto;
+	right:0;
+}
+img.scentualsFlyers{
+	position:fixed;
+	width:auto;
+	height:85vh;
+	left:14em;
+	top:3em;
+	
+
+}
+
+/** Next Links **/
+a.nextproject1{
+	font-size:0.75em;
+	font-family:nevis;
+	text-transform:uppercase;
+	position:absolute;
+	margin-top: -5%;
+	color:rgb(81,49,108);
+	float:left;
+	letter-spacing:1px;
+	padding-left:2em;
+	text-decoration:none;
+	z-index:1;
+}
+a.nextproject2{
+	font-size:0.75em;
+	font-family:nevis;
+	text-transform:uppercase;
+	position:absolute;
+	margin-top: -5%;
+	left:18%;
+	color:rgb(81,49,108);
+	float:right;
+	letter-spacing:1px;
+	padding-right:2em;
+	text-decoration:none;
+	z-index:1;
+}
+.fa-arrow-right{
+	position:absolute;
+	bottom:5%;
+	right:5%;
+	color:rgb(81,49,108);
+	float:right;
+	letter-spacing:1px;
+	z-index:1;
+}
+.fa-arrow-left{
+	position:absolute;
+	bottom:5%;
+	left:5%;
+	color:rgb(81,49,108);
+	float:left;
+	letter-spacing:1px;
+	z-index:1;
+}
+.fa{
+	z-index:1;
+}
+nav.pages{
+	list-style-type: none;
+	position: absolute;
+	right: 90%;
+	top:5%;
+	margin: 0;
+	z-index: 200;
+}
+
+
+/**TABLET**/
+@media(max-width:80em){
+	img.projectLogo{
+		padding-top:15%;
+	}
+	.TechbytesProject img{
+		/* position:fixed; */
+		width:66.6%;
+		height:100vh;
+	}
+	.text{
+		font-size:0.85em;
+		padding:0;
+	}
+	a.nextproject2 {
+		left: 20%;
+	}
+	nav.pages{
+		list-style-type: none;
+		position: absolute;
+		bottom: 1em;
+		right: 600px;
+		margin: 0;
+		z-index: 2100;
+	}
+}
+
+/**LANDSCAPE TABLET**/
+@media screen and (orientation: landscape) {
+
+}
+
+/**PHONE**/
+@media(max-width:35em){
+	.col-1of3{
+		display:block;
+		height: initial;
+	}
+	.col-2of3{
+		display:block;
+		position:relative;
+		width:100%;
+	}
+	
+}
