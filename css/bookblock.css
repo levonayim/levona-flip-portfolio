@@ -40,9 +40,10 @@
 .bb-content {
 	position: absolute;
 	height: 100%;
-	top: 0;
-	left: 0;
-}
+	width: 60vw;
+/* 	top: 0; */
+	padding-top:5%; /** I CHANGED WHEN IT FLIPS*/
+	}
 
 .bb-content {
 	background: #fff;

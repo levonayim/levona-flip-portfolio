@@ -13,7 +13,9 @@ img.projectLogo {
 	width: 70%;
 }
 img.TechbytesProject{
-	width: 66.6vw;
+	width: 60vw;
+	padding-top:15%;
+	padding-left:3em;
 /* 	margin-top: 10%; */
 	position: fixed;
 	left: 0;
@@ -81,6 +83,13 @@ ul.majorContributions>li{
 	padding: 0;
 }
 
+
+.projImg{
+	padding-top:1em;
+}
+.caption{
+	
+}
 /**TABLET**/
 @media(max-width:80em){
 	a.nextproject1 {

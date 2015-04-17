@@ -81,6 +81,10 @@ li.tiles{
 }
 
 /**Project White Logo**/
+.ilpic{
+	background-image:url("../img/logos/illestevaLogo-White.png");
+	background-size: 45% auto;
+}
 .swpic{
 	background-image:url("../img/logos/SawaLogo-White.png");
 	background-size: 45% auto;
@@ -122,12 +126,16 @@ li.tiles{
 	background-size: 100% auto;
 }
 
+.illesteva{
+	background-image:url("../img/illesteva/illestevaCover.jpg");
+}
+
 
 .projecttiles{
 	bottom: 0;
 	right: 0;
 	left: 0;
-	background-color:rgba(0,160,154,0.5);
+	background-color:rgba(0,160,154,0.2);
 	background-position:center;
     background-repeat: no-repeat;
 }
