@@ -14,7 +14,7 @@ img.projectLogo {
 }
 img.TechbytesProject{
 	width: 66.6vw;
-/* 	margin-top: 10%; */
+	margin-top: 5%;
 	position: fixed;
 	left: 0;
 }
@@ -106,7 +106,7 @@ a.nextproject2{
 	  padding-top: 10%;
 	}
 	.textDescriptionMain {
-		padding-top: 15%;
+		padding-top: 87%;
 	}	
 	a.nextproject1 {
 		left: 5%;
@@ -122,6 +122,7 @@ a.nextproject2{
 	}
 	img.TechbytesProject{
 		position: absolute;
+		margin-top:8%;
 		width:100vw;
 	}
 	
