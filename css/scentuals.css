@@ -103,6 +103,14 @@ ul.majorContributions>li{
 	}
 }
 
+@media screen and (orientation:portrait){
+	img.TechbytesProject {
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+}
+
 /**PHONE**/
 @media(max-width:35em){
 	.col-1of3{
@@ -143,6 +151,7 @@ ul.majorContributions>li{
 	img.scentualsFlyers{
 		position:absolute;
 		width:100vw;
+		height:auto;
 		left:0;
 		top:0;
 	}

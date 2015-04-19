@@ -41,7 +41,7 @@
 }
 
 /**TABLET**/
-@media(max-width:80em){
+@media(max-width:85em){
 	.aboutMe{
 		padding-top:20%;
 	}
@@ -54,8 +54,14 @@
 }
 
 /**LANDSCAPE TABLET**/
-@media screen and (orientation: landscape) {
-
+@media screen and (orientation: portrait) {
+	.col-1of3.aboutMePic{
+		margin-top:-50%;
+		padding-top:70%;
+		width:85%;
+		margin-left:10%;
+		position:relative;
+	}
 }
 
 /**MOBILE**/
