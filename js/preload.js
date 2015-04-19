@@ -6,7 +6,7 @@ $(document).ready(function() {
 		$('a.dd-toggle').next("ul").removeClass("dd-hidden").addClass("dd-shown");
 		// $('ul').removeClass("dd-hidden").addClass("dd-shown");
 		
-    },2000);
+    },2500);
 	
 	$("a.dd-toggle").click( function(e) { 
 		

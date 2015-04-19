@@ -56,11 +56,15 @@
 /**LANDSCAPE TABLET**/
 @media screen and (orientation: portrait) {
 	.col-1of3.aboutMePic{
-		margin-top:-50%;
+		/* margin-top:-50%; */
 		padding-top:70%;
 		width:85%;
 		margin-left:10%;
-		position:relative;
+		/* position:relative; */
+	}
+	.aboutMe{
+		font-size:0.85em;
+		height:100%;
 	}
 }
 
