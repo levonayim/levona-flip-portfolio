@@ -165,9 +165,9 @@ ul.majorContributions>li{
 		margin-left:25%;
 		margin-top:5%;
 	}
-	img.productpics{
+	img.scentualsFlyers.productpics{
 		position:absolute;
-		width:100%;
+		max-width:100%;
 		height:auto;
 		left:0;
 		top:0;
