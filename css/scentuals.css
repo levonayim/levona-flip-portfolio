@@ -104,10 +104,66 @@ ul.majorContributions>li{
 }
 
 @media screen and (orientation:portrait){
-	img.TechbytesProject {
+	.col-1of3{
+		display:block;
+		height: initial;
+	}
+	.col-2of3{
+		display:block;
+		position:relative;
 		width:100%;
-		margin:0;
-		padding:0;
+	}
+	
+	img.projectLogo {
+	  padding-top: 10%;
+	}
+	.textDescriptionMain {
+		padding-top: 85%;
+	}	
+	a.nextproject1 {
+		left: 5%;
+	}
+	a.nextproject2 {
+		left: 40%;
+	}
+
+	.TechbytesProject img {
+	  position: relative;
+	  width: 100%;
+	  height: auto;
+	  top:0;
+	}
+	
+	img.TechbytesProject{
+		position: absolute;
+		width:100vw;
+	}
+	img.scentualsFlyers.flyerlong{
+		position:absolute;
+		max-width:35%;
+		height:auto;
+		left:0;
+		top:0;
+		margin-left:35%;
+		margin-top:5%;
+	}
+	img.scentualsFlyers{
+		position:absolute;
+		max-width:55%;
+		height:auto;
+		left:0;
+		top:0;
+		margin-left:25%;
+		margin-top:5%;
+	}
+	img.scentualsFlyers.productpics{
+		position:absolute;
+		max-width:100%;
+		height:auto;
+		left:0;
+		top:0;
+		margin-top:10%;
+		margin-left:0;
 	}
 }
 
@@ -174,3 +230,4 @@ ul.majorContributions>li{
 		margin-top:10%;
 		margin-left:0;
 	}
+}
