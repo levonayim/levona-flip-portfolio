@@ -127,7 +127,7 @@ ul.majorContributions>li{
 	  padding-top: 10%;
 	}
 	.textDescriptionMain {
-		padding-top: 70%;
+		padding-top: 120%;
 	}	
 	a.nextproject1 {
 		left: 5%;
@@ -150,9 +150,11 @@ ul.majorContributions>li{
 	
 	img.scentualsFlyers{
 		position:absolute;
-		width:100vw;
+		max-width:50%;
 		height:auto;
 		left:0;
 		top:0;
+		margin-left:25%;
+		margin-top:5%;
 	}
 }
