@@ -147,10 +147,18 @@ ul.majorContributions>li{
 		position: absolute;
 		width:100vw;
 	}
-	
-	img.scentualsFlyers{
+	img.scentualsFlyers.flyerlong{
 		position:absolute;
 		max-width:50%;
+		height:auto;
+		left:0;
+		top:0;
+		margin-left:25%;
+		margin-top:5%;
+	}
+	img.scentualsFlyers{
+		position:absolute;
+		max-width:65%;
 		height:auto;
 		left:0;
 		top:0;
