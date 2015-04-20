@@ -127,7 +127,7 @@ ul.majorContributions>li{
 	  padding-top: 10%;
 	}
 	.textDescriptionMain {
-		padding-top: 120%;
+		padding-top: 85%;
 	}	
 	a.nextproject1 {
 		left: 5%;
@@ -149,20 +149,27 @@ ul.majorContributions>li{
 	}
 	img.scentualsFlyers.flyerlong{
 		position:absolute;
-		max-width:50%;
+		max-width:35%;
 		height:auto;
 		left:0;
 		top:0;
-		margin-left:25%;
+		margin-left:35%;
 		margin-top:5%;
 	}
 	img.scentualsFlyers{
 		position:absolute;
-		max-width:65%;
+		max-width:55%;
 		height:auto;
 		left:0;
 		top:0;
 		margin-left:25%;
 		margin-top:5%;
 	}
-}
+	img.scentualsFlyers.productpics{
+		position:absolute;
+		max-width:100%;
+		height:auto;
+		left:0;
+		top:0;
+		margin-top:10%;	
+	}
