@@ -87,12 +87,12 @@ li.tiles{
 }
 .swpic{
 	background-image:url("../img/logos/SawaLogo-White.png");
-	background-size: 45% auto;
+	background-size: 40% auto;
 }
 .tbpic{
-	background-image:url("../img/logos/TBLogo-White.png"); 
-	/* background-image:url("../img/logos/TBLogo-Turq.png");  */
-	background-size: 50% auto;
+	background-image:url("../img/logos/COS-logo-white.png"); 
+	background-size: 45% auto;
+	padding-top:2em;
 }
 .scpic{
 	background-image:url("../img/logos/ScentualsLogo-White.png");
@@ -107,7 +107,7 @@ li.tiles{
 
 /**Project Background Image**/
 .techbytes{
-	background-image:url("../img/tabletpic2.jpg");
+	background-image:url("../img/GeneralSurrey_960.jpg");
 }
 .techbytes:hover{
 	background-size: 100% auto;
