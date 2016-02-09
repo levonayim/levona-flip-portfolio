@@ -108,28 +108,45 @@ li.tiles{
 /**Project Background Image**/
 .techbytes{
 	background-image:url("../img/GeneralSurrey_960.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .techbytes:hover{
-	background-size: 100% auto;
+	background-size: 150% auto;
 }
 .sawa{
 	background-image:url("../img/sawaCover.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.sawa:hover{
+	background-size: 110% auto;
 }
 .optimail{
 	background-image:url("../img/optimailCover2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.optimail:hover{
+	background-size: 110% auto;
 }
 .scentuals{
 	background-image:url("../img/ScentualsVanilla.jpg");
 	background-position: 40% 25%;
+	background-repeat: no-repeat;
 }
 .scentuals:hover{
-	background-size: 100% auto;
+	background-size: 110% auto;
 }
 
 .illesteva{
 	background-image:url("../img/illesteva/illestevaCover.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-
+.illesteva:hover{
+	background-size: 110% auto;
+}
 
 .projecttiles{
 	bottom: 0;
