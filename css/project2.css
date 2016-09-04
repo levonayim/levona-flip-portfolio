@@ -35,10 +35,9 @@ ul.projectTiles{
 	left:0;
 	bottom:0;
 /* 	width:98vw; */
-	height:96vh;
-	border: 1em solid white;
-	
+	height:96vh;	
 }
+
 #wrapper{
 /* 	width:100%;
 	height:100%;
@@ -51,10 +50,11 @@ li.tiles.printBrand{
 li.tiles{
 	list-style-type: none;
 	height: 50%;
-	width:33.3%;
+	width: 33%;
 	position:relative;
 	display:inline-block;
 	float:left;
+	border: 1px solid #faf8f9;
 }
 
 .content{
@@ -152,7 +152,7 @@ li.tiles{
 	bottom: 0;
 	right: 0;
 	left: 0;
-	background-color:rgba(0,160,154,0.2);
+	background-color:rgba(81, 49, 108, 0.85);
 	background-position:center;
     background-repeat: no-repeat;
 }
@@ -249,7 +249,7 @@ a.project{
 		bottom: 0;
 		right: 0;
 		left: 0;
-		background-color:rgba(0,160,154,0.3);
+		background-color:rgb(81, 49, 108);
 		background-position:center;
 		background-repeat: no-repeat;
 	}

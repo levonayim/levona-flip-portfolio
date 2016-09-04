@@ -90,23 +90,25 @@ a.nextproject2{
 }
 
 /**PHONE**/
-@media(max-width:35em){
+@media(max-width:900px){
 	
 	.col-1of3{
 		display:block;
-		height: initial;
+		width: 100%;
 	}
 	.col-2of3{
-		display:block;
-		position:relative;
-		width:100%;
+		display: block;
+    	position: relative;
+    	width: 100%;
+    	margin-left: auto;
+    	margin-right: auto;
 	}
 	
 	img.projectLogo {
 	  padding-top: 10%;
 	}
 	.textDescriptionMain {
-		padding-top: 87%;
+		padding-top: 0;
 	}	
 	a.nextproject1 {
 		left: 5%;
@@ -135,4 +137,10 @@ a.nextproject2{
 	.bb-bookblock {
 		width: 66.6vw;
 		height: 100%;
+}
+
+@media(max-width: 35em){
+	.textDescriptionMain {
+		padding-top: 100%;
+	}	
 }

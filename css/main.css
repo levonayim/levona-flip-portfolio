@@ -6,6 +6,10 @@
 	font-family:centurygothic;
 	src:url(font/GOTHIC.TTF);
 }
+@font-face{
+	font-family:kingbasillite;
+	src:url(font/King-Basil-Lite.otf);
+}
 
 /**** COLOURS
 Purple: rgb(81,49,108) #51316c
@@ -42,11 +46,11 @@ a:hover; a:active;{
 
 #footer-info{
 	width: 100vw;
-	font-family:nevis;
-	text-transform:uppercase;
-	font-size:0.75em;
+	font-family: open sans,sans-serif;
+    font-weight: 600;
+	font-size: 0.75em;
 	background-color:#ffffff;
-	color:#00a09a;
+	color: darkgray;
 	text-align: center;
 	bottom: 0;
 	position: relative;
@@ -64,7 +68,6 @@ p.contactMsg{
 	right:0;
 	left:0;
 	bottom:0;
-	border: 1em solid white;
 }
 .hello{
 	font-family:nevis; 
@@ -86,18 +89,17 @@ p.contactMsg{
 }
 
 .hello h1{
-	letter-spacing:0.5em;
-	font-size:2.5em;
-	/* margin-bottom:0; */
+	font-size: 4.5em;
+    font-family: kingbasillite;
+    text-transform: none;
+    margin-bottom: 0;
 }
 
 .hello p{
-	font-size:1.25em;
-	letter-spacing:0.3em;
-	line-height:1.5em;
-	/* margin-top:5em; */
-	margin-left:2em;
-	margin-right:2em;
+	font-size: 1.25em;
+	letter-spacing: 0.3em;
+	line-height: 1.5em;
+	margin: 0 2em 2em 2em;
 	width: 85%;
 }
 
@@ -147,6 +149,25 @@ nav, nav ul{
 	text-decoration:none;
 	z-index: 210;
 	font-size:1em;
+}
+
+.viewprojects-btn, a.viewprojects-btn:visited{
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    font-size: 0.75em;
+    background-color: rgba(81, 49, 108, 0.85);
+}
+
+.menuprojectpage{
+	color: #ffffff!important;
+	border: 3px solid #00a09a;
+	background-color: rgba(0,160,154,0.5)
+}
+
+.viewprojects-btn:hover{
+	background-color: rgba(81, 49, 108, 1);
 }
 
 .mylogo{
