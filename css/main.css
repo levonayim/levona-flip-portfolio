@@ -99,7 +99,7 @@ p.contactMsg{
 	font-size: 1.25em;
 	letter-spacing: 0.3em;
 	line-height: 1.5em;
-	margin: 0 2em 2em 2em;
+	margin: 2em;
 	width: 85%;
 }
 
@@ -269,7 +269,6 @@ nav, nav ul{
 		font-size: 1.15em;
 		letter-spacing: 0.3em;
 		line-height: 1.5em;
-		width:100%;
 	}
 	
   img.ri { 
